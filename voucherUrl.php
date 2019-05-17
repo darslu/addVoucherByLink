@@ -12,7 +12,7 @@ class VoucherUrl extends Module
         $this->name = 'voucherUrl';
         $this->tab = 'advertising_marketing';
         $this->version = '1.0.0';
-        $this->author = 'Damiano Rodriguez';
+        $this->author = 'Darius Šlubelis';
         $this->need_instance = 0;
 
         /**
@@ -190,8 +190,8 @@ class VoucherUrl extends Module
         $this->context->controller->addCSS($this->_path.'/views/css/front.css');
         if (Tools::getValue('voucher')){
             $cartVoucher = Tools::getValue('voucher');
-            $idDiscount = Discount::getIdByName($cartVoucher);
-            Context::getContext()->cart->addDiscount($idDiscount);
+            $idDiscount = CartRule::getIdByCode($cartVoucher);
+            Context::getContext()->cart->addCartRule($idDiscount);
         }
     }
 

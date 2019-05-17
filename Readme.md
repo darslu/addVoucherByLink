@@ -1,4 +1,4 @@
-# Add Voucher By Link
+# Add Voucher By Link FOR PrestaShop 1.7
 ==========
 
 Add Voucher By Link is s simple Prestashop Module that allows passing voucher codes through the URL.
