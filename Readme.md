@@ -11,9 +11,11 @@ Any fix you find or any improvement will be appreciated and added.
 
 # INSTALLATION
 
-Download 
-Rename to "voucherUrl"
-Install by uploading to your backoffice as a normal module
+- Download 
+- Extract file
+- Rename to "voucherUrl" (By removing -master)
+- Compress to ZIP archive type 
+- Install by uploading to your backoffice as a normal module
 
 # USAGE
 
@@ -25,5 +27,6 @@ http:://myshop.com/it/ipods?voucher=MYVOUCHER
 
 # PROBLEMS WITH INSTALLATION    
 
+Did you followed installation instructions?
 Make sure all files and folders is the same name: voucherUrl.zip -> voucherUrl.php
 Make sure it is compressed to ZIP type
