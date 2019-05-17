@@ -11,7 +11,9 @@ Any fix you find or any improvement will be appreciated and added.
 
 # INSTALLATION
 
-Download this repo as a zip and upload to your backoffice as a normal module
+Download 
+Rename to "voucherUrl"
+Install by uploading to your backoffice as a normal module
 
 # USAGE
 
@@ -20,3 +22,8 @@ Create a customized URL with every page you want:
 http:://myshop.com/?voucher=MYVOUCHER
 
 http:://myshop.com/it/ipods?voucher=MYVOUCHER
+
+# PROBLEMS WITH INSTALLATION    
+
+Make sure all files and folders is the same name: voucherUrl.zip -> voucherUrl.php
+Make sure it is compressed to ZIP type
